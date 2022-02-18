@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-num= int (input("Numero de Iteraciones?"))
-print(f"Number \t\t Square")
+num= int (input("Numer of Iteracions?"))
+print(f"Number\t\tSquare\t\tCube")
 
 for n in range(num+1):
-    print(f"{n}\t\t{n*n}")
+    print(f"{n}\t\t{n*n}\t\t{pow(n,3)}")
     n+=1
 
 
